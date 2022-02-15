@@ -142,7 +142,7 @@ resource "azurerm_linux_virtual_machine" "myterraformvmawx" {
     }
 
     computer_name  = "awxvm"
-    admin_username = "azureuser"
+    admin_username = "aphinn"
     disable_password_authentication = true
 
     admin_ssh_key {
